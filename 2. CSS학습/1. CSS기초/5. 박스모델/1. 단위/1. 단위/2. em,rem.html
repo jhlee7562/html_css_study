@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            font-size: 10px;
+        }
+        body{
+            font-size: 16px;
+        }
+        body * {
+            border: 2px solid #000;
+        }
+
+        .container {
+            width: 60rem;
+            font-size: 20px;
+        }
+
+        .parent {
+            width: 50%;
+            font-size: 1.3em;
+        }
+
+        .child {
+            width: 50%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- .container>.parent>.child*2 -->
+    <div class="container">container
+        <div class="parent">parent
+            <div class="child">child1</div>
+            <div class="child">child2</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
