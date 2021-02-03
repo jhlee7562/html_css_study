@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+        width: 300px;
+        height: 300px;
+        border: 2px solid red;
+        background-image: url('./images/basic.jpg');
+        background-repeat: no-repeat;
+
+        /* background-size: 200px 100px; */
+        /* background-size: 200px; 가로만 적으면 세로는 이미지 비율에 맞게 지정*/
+        /* background-size: cover; 긴쪽으로 비율에 맞춰짐*/
+        /* background-size: contain; 짧은쪽으로 비율에 맞춰짐*/
+        background-size: cover;
+        background-position: 0 -50;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
