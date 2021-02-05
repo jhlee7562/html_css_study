@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .container {
+        display: flex;
+        width: 600px;
+        margin: 100px auto 0;
+        padding: 100;
+    }
+
+    .container .box {
+        width: 100px;
+        height: 100px;
+        float: left;
+        background: tomato;
+        border: 3px dashed red;
+        border-radius: 10px;
+        font-size: 30px;
+        text-align: center;
+        line-height: 100px;
+        margin-right: -40px;
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+        transition: 0.7s;
+
+    }
+
+    .container .box:hover {
+        background: yellowgreen;
+        border-color: yellow;
+        position: relative;
+        bottom: 20px;
+        z-index: 10;
+        transform: translateY(-20px);
+    }
+</style>
+
+<body>
+
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </div>
+
+</body>
+
+</html>
